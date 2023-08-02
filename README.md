@@ -21,6 +21,6 @@ This course aims to introduce students to computer tools essential for electrica
 
 ## Course Projects
 This section will display the projects that were done in this course, both in MATLAB and PSPICE:
-1. [Project 1a - Circuit Simulator (MATLAB)](./Project1a/README.md)
-2. [Project 1b - GUI FOR CIRCUIT SIMULATOR (MATLAB)](./Project1b/README.md)
-3. [Project 2 - ANALOG COMPUTER (PSPICE)](./Project2/README.md)
+1. [Project 1a - Circuit Simulator (MATLAB)](./Project1a/README.md):  This project implements a MATLAB-based circuit simulator capable of simulating circuits with Resistors, Independent voltage sources, and Independent current sources.
+2. [Project 1b - GUI FOR CIRCUIT SIMULATOR (MATLAB)](./Project1b/README.md): This project involves creating a Graphical User Interface (GUI) for a MATLAB-based circuit simulator.
+3. [Project 2 - ANALOG COMPUTER (PSPICE)](./Project2/README.md): This project involves the design of an analog computer using PSPICE to solve a specific differential equation. An analog computer is a form of computer that leverages the continuously changeable aspects of physical phenomena to model the problem being solved. Electronic analog computers typically use OPAMPs, voltage sources, and oscilloscopes to solve differential equations modeling a physical system.
