@@ -1,0 +1,13 @@
+STATUS: PSpice Model Import Wizard for "Capture" (17.2.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: C:\Cadence\SPB_17.2\tools\capture\library\pspice\userlib\ad8608.lib
+   INFO: Output File: C:\Cadence\SPB_17.2\tools\capture\library\pspice\userlib\ad8608.olb
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Thursday, December 22, 2016 00:34:47
+STATUS:  
+  ERROR: Invalid configuration. Verify that valid model and symbol libraries are configured.
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Thursday, December 22, 2016 00:34:47
+STATUS:  
+STATUS: 1 Error messages, 0 Warning messages

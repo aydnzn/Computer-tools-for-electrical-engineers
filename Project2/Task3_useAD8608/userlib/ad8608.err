@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.2.0.d001)
+STATUS:  
+STATUS: Translator started at Thursday, December 22, 2016 00:34:56
+STATUS: C:\Cadence\SPB_17.2\tools\bin\sch2cap -f "C:\Cadence\SPB_17.2\tools\capture\library\pspice\userlib\ad8608.lib" -o "C:\Cadence\SPB_17.2\tools\capture\library\pspice\userlib\ad8608.olb" -i .\cdssetup\OrCAD_PSpice/17.2.0/PSpice.ini
+INFO(ORSCH-1031): Created new library 'C:\Cadence\SPB_17.2\tools\capture\library\pspice\userlib\ad8608.olb'.
+  ERROR: [S2C3471] Base part library  does not exist
+STATUS: Translator stopped at Thursday, December 22, 2016 00:34:56
+STATUS: 1 Error messages, 0 Warning messages

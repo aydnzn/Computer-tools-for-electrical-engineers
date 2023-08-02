@@ -1,0 +1,308 @@
+
+**** 12/22/16 12:06:00 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-circuitwithad8608"  [ C:\USERS\AYDýN UZUN\circuitwithad8608-PSpiceFiles\SCHEMATIC1\circuitwithad8608.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "circuitwithad8608.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Cadence/SPB_17.2/tools/capture/library/pspice/userlib/ad8608.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Aydýn Uzun\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source CIRCUITWITHAD8608
+X_U11         N21681 N21581 N21605 N21499 N21327 AD8608 
+R_R10         N21581 0  1k TC=0,0 
+V_V1         N21153 0 -1
+R_R6         N21157 N21241  1k TC=0,0 
+R_R1         N21153 N21157  1k TC=0,0 
+C_C4         0 N21347  1m IC=0 TC=0,0 
+V_V5         0 N21499 15
+C_C3         N21281 N21225  1m IC=0.05 TC=0,0 
+C_C2         N21327 N21581  1m IC=0.1 TC=0,0 
+X_U10         N21347 N21225 N21605 N21499 N21281 AD8608 
+R_R9         N21225 0  1k TC=0,0 
+V_V4         N21605 0 15
+R_R8         N21281 N21681  1k TC=0,0 
+C_C5         0 N21681  1m IC=0 TC=0,0 
+R_R5         N21281 N21157  500 TC=0,0 
+R_R7         N21241 N21347  1k TC=0,0 
+X_U9         0 N21157 N21605 N21499 N21241 AD8608 
+R_R4         N21327 N21157  200 TC=0,0 
+
+**** RESUMING circuitwithad8608.cir ****
+.END
+
+**** 12/22/16 12:06:00 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-circuitwithad8608"  [ C:\USERS\AYDýN UZUN\circuitwithad8608-PSpiceFiles\SCHEMATIC1\circuitwithad8608.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U11.DX        X_U10.DX        X_U9.DX         
+          IS   10.000000E-15   10.000000E-15   10.000000E-15 
+          RS    5               5               5            
+
+
+**** 12/22/16 12:06:00 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-circuitwithad8608"  [ C:\USERS\AYDýN UZUN\circuitwithad8608-PSpiceFiles\SCHEMATIC1\circuitwithad8608.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U11.POX       X_U11.NOX       X_U11.PIX       X_U11.NIX       
+               PMOS            NMOS            PMOS            NMOS            
+       LEVEL    2               2               2               2            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO    -.328            .328           -.328            .328        
+          KP   10.000000E-06   10.000000E-06   10.000000E-06   10.000000E-06 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA     .01             .01             .01             .01         
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX  100.000000E-09  100.000000E-09     .1              .1          
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+          KF                                    0               0            
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+               X_U10.POX       X_U10.NOX       X_U10.PIX       X_U10.NIX       
+               PMOS            NMOS            PMOS            NMOS            
+       LEVEL    2               2               2               2            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO    -.328            .328           -.328            .328        
+          KP   10.000000E-06   10.000000E-06   10.000000E-06   10.000000E-06 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA     .01             .01             .01             .01         
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX  100.000000E-09  100.000000E-09     .1              .1          
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+          KF                                    0               0            
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+               X_U9.POX        X_U9.NOX        X_U9.PIX        X_U9.NIX        
+               PMOS            NMOS            PMOS            NMOS            
+       LEVEL    2               2               2               2            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO    -.328            .328           -.328            .328        
+          KP   10.000000E-06   10.000000E-06   10.000000E-06   10.000000E-06 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA     .01             .01             .01             .01         
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX  100.000000E-09  100.000000E-09     .1              .1          
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+          KF                                    0               0            
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+**** 12/22/16 12:06:00 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-circuitwithad8608"  [ C:\USERS\AYDýN UZUN\circuitwithad8608-PSpiceFiles\SCHEMATIC1\circuitwithad8608.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N21153)   -1.0000 (N21157)-524.1E-06 (N21225)-522.8E-06 (N21241)     .3989     
+
+(N21281)     .0495 (N21327)     .0995 (N21347) 797.9E-09 (N21499)  -15.0000     
+
+(N21581)-523.8E-06 (N21605)   15.0000 (N21681) 98.95E-09 (X_U9.7)-523.5E-06     
+
+(X_U9.8)     .4003 (X_U9.9)   14.7000 (X_U10.7)-522.7E-06                       
+
+(X_U10.8)     .4003                   (X_U10.9)   14.7000                       
+
+(X_U11.7)-523.4E-06                   (X_U11.8)     .4003                       
+
+(X_U11.9)   14.7000                   (X_U9.10)    -.4013                       
+
+(X_U9.13)  -14.7000                   (X_U9.14)  -14.8000                       
+
+(X_U9.16)  -14.8000                   (X_U9.17)   14.8000                       
+
+(X_U9.18)   14.8000                   (X_U9.21)-262.1E-06                       
+
+(X_U9.22)-2.621E-09                   (X_U9.30)    -.2189                       
+
+(X_U9.46)   14.3170                   (X_U9.47)  -14.7800                       
+
+(X_U9.51)  -14.4000                   (X_U9.72)  -30.0000                       
+
+(X_U9.73)-533.5E-06                   (X_U9.80)    0.0000                       
+
+(X_U9.81)    0.0000                   (X_U9.97)   14.4000                       
+
+(X_U9.98)    0.0000                   (X_U10.10)    -.4013                      
+
+(X_U10.13)  -14.7000                  (X_U10.14)  -14.8000                      
+
+(X_U10.16)  -14.8000                  (X_U10.17)   14.8000                      
+
+(X_U10.18)   14.8000                  (X_U10.21)-261.0E-06                      
+
+(X_U10.22)-2.610E-09                  (X_U10.30)    -.0399                      
+
+(X_U10.46)   14.4960                  (X_U10.47)  -14.6010                      
+
+(X_U10.51)  -14.4000                  (X_U10.72)  -30.0000                      
+
+(X_U10.73)-533.5E-06                  (X_U10.80)    0.0000                      
+
+(X_U10.81)    0.0000                  (X_U10.97)   14.4000                      
+
+(X_U10.98)    0.0000                  (X_U11.10)    -.4013                      
+
+(X_U11.13)  -14.7000                  (X_U11.14)  -14.8000                      
+
+(X_U11.16)  -14.8000                  (X_U11.17)   14.8000                      
+
+(X_U11.18)   14.8000                  (X_U11.21)-261.9E-06                      
+
+(X_U11.22)-2.619E-09                  (X_U11.30)    -.1442                      
+
+(X_U11.46)   14.3910                  (X_U11.47)  -14.7050                      
+
+(X_U11.51)  -14.4000                  (X_U11.72)  -30.0000                      
+
+(X_U11.73)-533.5E-06                  (X_U11.80)    0.0000                      
+
+(X_U11.81)    0.0000                  (X_U11.97)   14.4000                      
+
+(X_U11.98)    0.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         9.995E-04
+    V_V5        -4.968E-03
+    V_V4        -6.415E-03
+    X_U11.V1     1.431E-11
+    X_U11.V2     1.431E-11
+    X_U11.VN1    0.000E+00
+    X_U10.V1     1.431E-11
+    X_U10.V2     1.431E-11
+    X_U10.VN1    0.000E+00
+    X_U9.V1      1.431E-11
+    X_U9.V2      1.431E-11
+    X_U9.VN1     0.000E+00
+
+    TOTAL POWER DISSIPATION   1.72E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/22/16 12:06:00 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-circuitwithad8608"  [ C:\USERS\AYDýN UZUN\circuitwithad8608-PSpiceFiles\SCHEMATIC1\circuitwithad8608.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

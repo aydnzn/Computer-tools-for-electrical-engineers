@@ -1,0 +1,30 @@
+* source CIRCUITWITHOPAMPSUSINGVCVS
+X_U8         N091950 N09273 Sw_tOpen PARAMS: tOpen=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+C_C2         N09263 N09273  1m  TC=0,0 
+C_C1         N09141 N09151  1m  TC=0,0 
+V_V1         N090390 0 -1
+R_R16         N09385 N09219  100 TC=0,0 
+R_R6         N09085 N09219  1k TC=0,0 
+R_R7         N09219 N09141  1k TC=0,0 
+R_R4         N09273 N09085  200 TC=0,0 
+E_E4         N09401 0 N09141 0 10k
+R_R15         N09085 0  1MEG TC=0,0 
+V_V2         N091950 N09263 0.1
+E_E6         N10035 0 N09859 0 10k
+R_R22         N09645 N10035  100 TC=0,0 
+E_E5         N09807 0 N09263 0 10k
+E_E3         N09385 0 N09085 0 10k
+R_R18         N09141 0  1MEG TC=0,0 
+X_U7         N090990 N09151 Sw_tOpen PARAMS: tOpen=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+V_V3         N090990 N09141 0.05
+R_R20         N09263 0  1MEG TC=0,0 
+R_R9         N09645 N09859  2k TC=0,0 
+R_R10         N09859 N09151  1k TC=0,0 
+R_R17         N09401 N09151  100 TC=0,0 
+R_R5         N09645 N09085  1k TC=0,0 
+R_R1         N090390 N09085  1k TC=0,0 
+R_R21         0 N09859  1MEG TC=0,0 
+R_R8         N09151 N09263  1k TC=0,0 
+R_R19         N09807 N09273  100 TC=0,0 
