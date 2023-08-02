@@ -20,7 +20,7 @@ This course aims to introduce students to computer tools essential for electrica
     6. Frequency Domain Analysis
 
 ## Course Projects
-This section will display the projects that were done in this course, both in MATLAB and PSPICE.
--[Project 1a - Circuit Simulator (MATLAB)](./Project1a/README.md)
--[Project 1b - GUI FOR CIRCUIT SIMULATOR (MATLAB)](./Project1b/README.md)
--[Project 2 - ANALOG COMPUTER (PSPICE)](./Project2/README.md)
+This section will display the projects that were done in this course, both in MATLAB and PSPICE:
+1. [Project 1a - Circuit Simulator (MATLAB)](./Project1a/README.md)
+2. [Project 1b - GUI FOR CIRCUIT SIMULATOR (MATLAB)](./Project1b/README.md)
+3. [Project 2 - ANALOG COMPUTER (PSPICE)](./Project2/README.md)
