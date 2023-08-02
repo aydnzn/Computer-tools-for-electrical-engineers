@@ -21,6 +21,6 @@ This course aims to introduce students to computer tools essential for electrica
 
 ## Course Projects
 This section will display the projects that were done in this course, both in MATLAB and PSPICE.
-[Project 1a - Circuit Simulator (MATLAB)](./Project1a/README.md)
-[Project 1b - GUI FOR CIRCUIT SIMULATOR (MATLAB)](./Project1b/README.md)
-[Project 2 - ANALOG COMPUTER (PSPICE)](./Project2/README.md)
+-[Project 1a - Circuit Simulator (MATLAB)](./Project1a/README.md)
+-[Project 1b - GUI FOR CIRCUIT SIMULATOR (MATLAB)](./Project1b/README.md)
+-[Project 2 - ANALOG COMPUTER (PSPICE)](./Project2/README.md)
